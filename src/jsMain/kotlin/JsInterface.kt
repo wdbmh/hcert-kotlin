@@ -235,6 +235,8 @@ fun main() {
         val generatorFixed = Generator("bar", "bar")
         generatorFixed.encode("bar")
         generatorFixed.encodeToQrCode("bar", 2, 1)
+        
+        val signedDataDownloader = SignedDataDownloader
     }
     console.info("DCC Chain Loaded")
 }
